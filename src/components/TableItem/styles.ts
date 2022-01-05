@@ -12,3 +12,7 @@ export const Category = styled.div<{ color: string}>`
     color: #FFF;
     background-color: red; ${props => props.color};
 `;
+
+export const Value = styled.div<{ color: string }>`
+    color: ${props => props.color};
+`;
